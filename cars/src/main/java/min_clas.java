@@ -19,7 +19,7 @@ public class min_clas {
 	static Installer nahida;
 	static  Scanner scanner = new Scanner(System.in);
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {/*
 		admin_regstrethion();// admin ishlize
 		Installation_regstre();
 		admin_addproduct();
@@ -34,8 +34,8 @@ public class min_clas {
 			if(who_now==1) admin_choice();
 			else if(who_now==2) user_choice();
 			else if(who_now ==3) installer_choice();
-	}}
-
+	}*/}
+/*
 	private static void installer_choice() {
 		 System.out.println("sign up enter your email and password");
 		 String a= scanner.nextLine();
@@ -176,9 +176,7 @@ public class min_clas {
 		
 		
 			
-		/*	for (int  k=0;k<ezz.admin_user.size();k++) {
-				if(ezz.admin_user.get(k).email.equalsIgnoreCase(a.email))ezz.admin_user.get(k).addproduct(ezz.admin_product.get(j)); 
-			}*/
+		
 	
 		return a;
 	}
@@ -231,6 +229,6 @@ public class min_clas {
 
 		
 		
-	}
+	}*/
 
 }

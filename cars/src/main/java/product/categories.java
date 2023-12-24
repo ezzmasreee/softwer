@@ -2,10 +2,14 @@ package product;
 
 public class categories {
 	String categ=new String();
-	public void set_categories(String a) {
+	public boolean set_categories(String a) {
 		categ=a;
+		return true;
 	}
 
+	public String get_categories() {
+		return categ;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String a= new String(); a="ezz";
