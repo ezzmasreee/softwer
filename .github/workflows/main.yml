@@ -23,6 +23,7 @@ jobs:
 
       - name: Step 4 - run test cases
         run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
+        working-directory: ./cars
 
       - name: Cache SonarCloud packages
         uses: actions/cache@v3
