@@ -6,12 +6,16 @@
   
 
 
+<<<<<<< HEAD
 <repositories>
     <repository>
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
     </repository>
 </repositories>
+=======
+
+>>>>>>> 4fbb030f844bf7d04706744bfde8b51487f63000
 
   
 
