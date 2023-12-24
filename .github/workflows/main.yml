@@ -18,7 +18,8 @@ jobs:
 
       - name: Step 3 - Build Maven Project
         run: mvn --batch-mode clean -DskipTests
-        working-directory: /home/runner/work/softwer/cars
+        working-directory: ./cars
+        
 
       - name: Step 4 - run test cases
         run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
