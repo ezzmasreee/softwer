@@ -26,6 +26,10 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.7</version> <!-- Specify the desired version -->
+                  <configuration>
+                <source>17</source>
+                <target>17</target>
+            </configuration>
                 <executions>
                     <execution>
                         <id>prepare-agent</id>
