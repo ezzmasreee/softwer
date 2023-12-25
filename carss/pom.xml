@@ -27,8 +27,8 @@
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.7</version> <!-- Specify the desired version -->
                   <configuration>
-                <source>17</source>
-                <target>17</target>
+                <source>1.7</source>
+                <target>1.7</target>
             </configuration>
                 <executions>
                     <execution>
