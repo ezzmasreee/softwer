@@ -23,6 +23,26 @@
    
     <plugins>
 		<plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version> <!-- Specify the desired version -->
+                <executions>
+                    <execution>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sonar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!-- SonarCloud token -->
+                    <sonar.login>${env.SONAR_TOKEN}</sonar.login>
+                    <!-- SonarCloud project key -->
+                    <sonar.projectKey>your-sonarcloud-project-key</sonar.projectKey>
+                    <!-- Other SonarCloud configurations... -->
+                </configuration>
+            </plugin>
+		<plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.7</version> <!-- Specify the desired version -->
@@ -56,6 +76,7 @@
                 <target>1.8</target> <!-- Set your Java target version -->
             </configuration>
         </plugin>
+        
     </plugins>
 </build>
   <properties>
