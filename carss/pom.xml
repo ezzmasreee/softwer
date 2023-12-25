@@ -56,8 +56,8 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version> <!-- Use the latest version -->
             <configuration>
-                <source>1.8</source> <!-- Set your Java source version -->
-                <target>1.8</target> <!-- Set your Java target version -->
+                <source>11</source> <!-- Set your Java source version -->
+                <target>11</target> <!-- Set your Java target version -->
             </configuration>
         </plugin>
         <plugin>
