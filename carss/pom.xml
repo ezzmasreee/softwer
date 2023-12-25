@@ -74,9 +74,9 @@
                 </executions>
                 <configuration>
                     <!-- SonarCloud token -->
-                    <sonar.login>${SONAR_TOKEN}</sonar.login>
+                    <sonar.login>${env.SONAR_TOKEN}</sonar.login>
                     <!-- SonarCloud project key -->
-                    <sonar.projectKey>55a5d584dd6cb8cc0655f9339a41153a5f51b6cc</sonar.projectKey>
+                    <sonar.projectKey>your-sonarcloud-project-key</sonar.projectKey>
                     <!-- Other SonarCloud configurations... -->
                 </configuration>
             </plugin>
