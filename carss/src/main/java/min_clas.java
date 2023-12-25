@@ -19,11 +19,11 @@ public class min_clas {
 	static Installer nahida;
 	static  Scanner scanner = new Scanner(System.in);
 
-	public static void main(String[] args) {/*
+	public static void main(String[] args) {
 		admin_regstrethion();// admin ishlize
 		Installation_regstre();
 		admin_addproduct();
-		
+		/*
 		  
 		while (true ) {
 			 System.out.println("select one  ");
@@ -52,7 +52,7 @@ public class min_clas {
 		 else if(y==4) {break; }}
 		
 	}
-
+*/
 	private static void Installation_regstre() {
 		
 	nahida=new Installer("nahid","nahida.gmail","barcha");
@@ -78,7 +78,7 @@ public class min_clas {
 		 a=new product("Electric motor","The motor converts the electrical energy into kinetic energy","avaliable","Electronics "); ezz.add_product(a);
 		 a=new product("Power Inverter","It coverts DC power from the batteries to AC power","avaliable","Electronics "); ezz.add_product(a);
 		 a=new product("Charge Port","onnects the electric vehicle to an external supply.","avaliable","Electronics "); ezz.add_product(a);
-	}
+	}/*
 
 	private static void user_choice() {
 		 System.out.println("1-sign in\n2-sign up \nchose number  ");
@@ -221,7 +221,7 @@ public class min_clas {
 		}
 		
 	}
-
+*/
 	private static void admin_regstrethion() {
 		// TODO Auto-generated method stub
 		ezz=new Admin ("ezz","s12011015@stu.najah.edu","ezzmasre");
@@ -229,6 +229,6 @@ public class min_clas {
 
 		
 		
-	}*/
+	}
 
 }

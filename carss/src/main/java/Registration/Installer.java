@@ -2,7 +2,7 @@ package Registration;
 
 import java.util.ArrayList;
 
-import product.categories;
+
 
 public class Installer {
 	String name;
@@ -33,19 +33,19 @@ public class Installer {
 		// TODO Auto-generated method stub
 
 	}
-	public void showappoitment() {
+	public void Showappoitment() {
 		for (int i=0;i<admin_appointment.size();i++)
 			System.out.println(admin_appointment.get(i));
 		// TODO Auto-generated method stub
 		
-	}public void showrequest() {
+	}public void Showrequest() {
 		for (int i=0;i<user_request.size();i++)
 			System.out.println(user_request.get(i));
 		// TODO Auto-generated method stub
 		
 	}
 	
-	public void sendappoitment(String nextLine) {
+	public void Sendappoitment(String nextLine) {
 		// TODO Auto-generated method stub
 		admin_appointment.add(nextLine);
 	}
