@@ -25,7 +25,7 @@ public class user {
 		
 	}
 	public boolean sign_in(String emaill,String pass ) {
-		if (email==emaill&&password==pass) {
+		if (email.equalsIgnoreCase(emaill)&&password.equalsIgnoreCase(pass)) {
 			return true;
 		}
 		else return false;
