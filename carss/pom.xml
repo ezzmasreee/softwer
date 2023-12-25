@@ -49,7 +49,7 @@
 			 
             <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.9.0.2180</version> <!-- Use an older version compatible with Java 8 -->
+            <version>3.9.1.2184</version> <!-- Use an older version compatible with Java 8 -->
         </plugin>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
