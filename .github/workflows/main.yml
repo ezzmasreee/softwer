@@ -21,7 +21,7 @@ jobs:
 
       - name: Step 3 - Build Maven Project
         run: mvn --batch-mode clean -DskipTests
-        working-directory: ./carss
+        
 
       - name: Step 4 - run test cases and generate JaCoCo report
         run: mvn --batch-mode -Dmaven.test.failure.ignore=true test jacoco:report
